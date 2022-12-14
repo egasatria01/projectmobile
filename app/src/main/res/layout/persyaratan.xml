@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/red">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_kembali"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="360dp"
+            android:background="@drawable/rectangle_31"/>
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="90dp"
+            android:text="Nominal Pinjaman"
+            android:textColor="@color/white"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="20dp"
+            android:text="Lengkapi Persyaratan di bawah ini :"
+            android:textColor="@color/white"
+            android:textSize="19dp"/>
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginRight="130dp"
+            android:text="Nama Lengkap"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            />
+
+        <EditText
+            android:id="@+id/txt4"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_kotak"
+            android:ems="10"
+            android:textAlignment="center"
+            android:hint="Natasya Giting"
+            android:layout_marginRight="40dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="40dp"
+            android:minHeight="48dp"/>
+
+        <TextView
+            android:id="@+id/tv5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginRight="130dp"
+            android:text="No KTP"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            />
+
+        <EditText
+            android:id="@+id/txt6"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_kotak"
+            android:ems="10"
+            android:textAlignment="center"
+            android:hint="Natasya Giting"
+            android:layout_marginRight="40dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="40dp"
+            android:minHeight="48dp"/>
+
+        <TextView
+            android:id="@+id/tv6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginRight="130dp"
+            android:text="Lampiran Foto KTP"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginRight="240dp">
+
+            <ImageView
+                android:id="@+id/img1"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_marginLeft="50dp"
+                android:background="@drawable/rectangle_42"
+                android:layout_marginTop="5dp"/>
+
+            <ImageView
+                android:id="@+id/img2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:foregroundGravity="bottom|right"
+                android:layout_marginLeft="125dp"
+                android:layout_marginTop="65dp"
+                android:background="@drawable/ellipse_11"/>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginRight="130dp"
+            android:text="Lampiran Foto Wajah"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginRight="240dp">
+
+            <ImageView
+                android:id="@+id/img3"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_marginLeft="50dp"
+                android:background="@drawable/rectangle_42"
+                android:layout_marginTop="5dp"/>
+
+            <ImageView
+                android:id="@+id/img4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:foregroundGravity="bottom|right"
+                android:layout_marginLeft="125dp"
+                android:layout_marginTop="65dp"
+                android:background="@drawable/ellipse_11"/>
+        </RelativeLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/btn_login"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:textColor="@color/white"
+            android:text="Hitung"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
